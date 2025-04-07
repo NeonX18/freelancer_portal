@@ -49,6 +49,7 @@
 
 ```bash
 # Clone the repo
+https://github.com/NeonX18/freelancer_portal
 
 # Install dependencies
 npm install
