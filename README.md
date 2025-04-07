@@ -45,16 +45,6 @@
 
 ---
 
-## 📸 Screenshots
-
-> _Drop these in your GitHub repo after deployment_
-
-| Profile                           | Dashboard                           | Bid Tracker                          |
-| --------------------------------- | ----------------------------------- | ------------------------------------ |
-| ![](./public/screens/profile.png) | ![](./public/screens/dashboard.png) | ![](./public/screens/bid-status.png) |
-
----
-
 ## ⚙️ Getting Started
 
 ```bash
