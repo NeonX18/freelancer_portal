@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 PeerHire — Freelancer Profile & Bidding Dashboard
 
-## Getting Started
+**PeerHire** is a modern, responsive platform that simulates a real-world freelancer dashboard. It allows users to manage their profiles, bid on projects, and track submission statuses — all wrapped in a slick, animated UI built with the latest web technologies.
 
-First, run the development server:
+<div align="center">
+  <img src="https://img.shields.io/badge/Next.js-14-blue" />
+  <img src="https://img.shields.io/badge/TailwindCSS-v4-38bdf8" />
+  <img src="https://img.shields.io/badge/TypeScript-%230074c1" />
+  <img src="https://img.shields.io/badge/FramerMotion-%23e26ee5" />
+</div>
+
+---
+
+## ✨ Features
+
+- 🎯 **Freelancer Profile**
+  - Skills, portfolio links, completed projects
+  - 1–5 ⭐ interactive rating system (stored in localStorage)
+- 📁 **Project Bidding Dashboard**
+  - View mock projects with budget, skills & timeline
+  - Submit detailed bids (proposal, amount, days)
+- 📊 **Bid Tracker**
+  - Status display: `Pending`, `Accepted`, `Rejected`
+  - Gradient cards with hover animation
+- 🌙 **Dark Mode**
+  - Fully themed — toggle with smooth transitions
+- 💡 **Responsive Design**
+  - Mobile-first, fully adaptable layout
+- 🧈 **Framer Motion Animations**
+  - Page fade-in, card transitions, and button effects
+- 🔔 **React Hot Toasts**
+  - Real-time feedback for form submissions
+
+---
+
+## 🔧 Tech Stack
+
+| Tool              | Purpose                          |
+| ----------------- | -------------------------------- |
+| `Next.js 14`      | App router with `app/` directory |
+| `Tailwind CSS`    | Utility-first styling            |
+| `TypeScript`      | Strongly typed components        |
+| `Framer Motion`   | Animations and transitions       |
+| `React Hot Toast` | UX feedback / alerts             |
+
+---
+
+## 📸 Screenshots
+
+> _Drop these in your GitHub repo after deployment_
+
+| Profile                           | Dashboard                           | Bid Tracker                          |
+| --------------------------------- | ----------------------------------- | ------------------------------------ |
+| ![](./public/screens/profile.png) | ![](./public/screens/dashboard.png) | ![](./public/screens/bid-status.png) |
+
+---
+
+## ⚙️ Getting Started
 
 ```bash
+# Clone the repo
+
+# Install dependencies
+npm install
+
+# Run the app
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

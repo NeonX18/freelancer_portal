@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Website Redesign",
+    "budget": 15000,
+    "timeline": 7,
+    "skills": ["React", "TailwindCSS"]
+  },
+  {
+    "id": 2,
+    "name": "Blockchain Smart Contract",
+    "budget": 50000,
+    "timeline": 14,
+    "skills": ["Solidity", "Ethereum"]
+  },
+  {
+    "id": 3,
+    "name": "Mobile App UI/UX Revamp",
+    "budget": 20000,
+    "timeline": 10,
+    "skills": ["Figma", "React Native"]
+  },
+  {
+    "id": 4,
+    "name": "AI Chatbot Integration",
+    "budget": 30000,
+    "timeline": 12,
+    "skills": ["Python", "NLP", "Langchain"]
+  },
+  {
+    "id": 5,
+    "name": "E-commerce Analytics Dashboard",
+    "budget": 25000,
+    "timeline": 9,
+    "skills": ["Next.js", "Chart.js", "MongoDB"]
+  },
+  {
+    "id": 6,
+    "name": "IoT Sensor Data Logger",
+    "budget": 40000,
+    "timeline": 15,
+    "skills": ["C++", "Microcontrollers", "Node.js"]
+  }
+]
